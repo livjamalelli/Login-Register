@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Success</title>
+  <style>
+    .green {
+        background-color: green;
+        border: 2px solid black;
+        font-size: 1.3em;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="green">
+    You're logged in as '{{user_info[0]['email']}}'.
+  </div>
+  <h1>Welcome {{user_info[0]['first_name']}} {{user_info[0]['last_name']}}!</h1>
+</body>
+</html>
